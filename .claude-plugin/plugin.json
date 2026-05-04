@@ -1,17 +1,17 @@
 {
   "name": "mattpocock-skills",
   "skills": [
-    "./skills/engineering/diagnose",
-    "./skills/engineering/grill-with-docs",
-    "./skills/engineering/triage",
-    "./skills/engineering/improve-codebase-architecture",
-    "./skills/engineering/setup-matt-pocock-skills",
-    "./skills/engineering/tdd",
-    "./skills/engineering/to-issues",
-    "./skills/engineering/to-prd",
-    "./skills/engineering/zoom-out",
-    "./skills/productivity/caveman",
-    "./skills/productivity/grill-me",
-    "./skills/productivity/write-a-skill"
+    "${CLAUDE_PLUGIN_ROOT}/skills/engineering/diagnose",
+    "${CLAUDE_PLUGIN_ROOT}/skills/engineering/grill-with-docs",
+    "${CLAUDE_PLUGIN_ROOT}/skills/engineering/triage",
+    "${CLAUDE_PLUGIN_ROOT}/skills/engineering/improve-codebase-architecture",
+    "${CLAUDE_PLUGIN_ROOT}/skills/engineering/setup-matt-pocock-skills",
+    "${CLAUDE_PLUGIN_ROOT}/skills/engineering/tdd",
+    "${CLAUDE_PLUGIN_ROOT}/skills/engineering/to-issues",
+    "${CLAUDE_PLUGIN_ROOT}/skills/engineering/to-prd",
+    "${CLAUDE_PLUGIN_ROOT}/skills/engineering/zoom-out",
+    "${CLAUDE_PLUGIN_ROOT}/skills/productivity/caveman",
+    "${CLAUDE_PLUGIN_ROOT}/skills/productivity/grill-me",
+    "${CLAUDE_PLUGIN_ROOT}/skills/productivity/write-a-skill"
   ]
 }
