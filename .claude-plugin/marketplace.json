@@ -1,16 +1,23 @@
 {
-  "name": "mattpocockskills",
-  "owner": {
-    "name": "maciello"
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "mattpocock-skills",
+  "version": "1.0.0",
+  "description": "Matt Pocock's engineering and productivity skills for Claude Code",
+  "author": {
+    "name": "mattpocock"
   },
-  "plugins": [
-    {
-      "name": "mattpocock-skills",
-      "source": {
-        "source": "git",
-        "url": "https://github.com/maciello/skills.git"
-      },
-      "description": "Matt Pocock's Claude Code skills — engineering, productivity, and workflow tools"
-    }
+  "skills": [
+    "${CLAUDE_PLUGIN_ROOT}/skills/engineering/diagnose",
+    "${CLAUDE_PLUGIN_ROOT}/skills/engineering/grill-with-docs",
+    "${CLAUDE_PLUGIN_ROOT}/skills/engineering/triage",
+    "${CLAUDE_PLUGIN_ROOT}/skills/engineering/improve-codebase-architecture",
+    "${CLAUDE_PLUGIN_ROOT}/skills/engineering/setup-matt-pocock-skills",
+    "${CLAUDE_PLUGIN_ROOT}/skills/engineering/tdd",
+    "${CLAUDE_PLUGIN_ROOT}/skills/engineering/to-issues",
+    "${CLAUDE_PLUGIN_ROOT}/skills/engineering/to-prd",
+    "${CLAUDE_PLUGIN_ROOT}/skills/engineering/zoom-out",
+    "${CLAUDE_PLUGIN_ROOT}/skills/productivity/caveman",
+    "${CLAUDE_PLUGIN_ROOT}/skills/productivity/grill-me",
+    "${CLAUDE_PLUGIN_ROOT}/skills/productivity/write-a-skill"
   ]
 }

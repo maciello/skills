@@ -1,5 +1,11 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "mattpocock-skills",
+  "version": "1.0.0",
+  "description": "Matt Pocock's engineering and productivity skills for Claude Code",
+  "author": {
+    "name": "mattpocock"
+  },
   "skills": [
     "${CLAUDE_PLUGIN_ROOT}/skills/engineering/diagnose",
     "${CLAUDE_PLUGIN_ROOT}/skills/engineering/grill-with-docs",
