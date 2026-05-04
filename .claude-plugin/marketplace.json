@@ -1,14 +1,14 @@
 {
   "name": "mattpocockskills",
   "owner": {
-    "name": "mattpocock"
+    "name": "maciello"
   },
   "plugins": [
     {
       "name": "mattpocock-skills",
       "source": {
-        "source": "github",
-        "repo": "maciello/skills"
+        "source": "git",
+        "url": "https://github.com/maciello/skills.git"
       },
       "description": "Matt Pocock's Claude Code skills — engineering, productivity, and workflow tools"
     }
